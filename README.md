@@ -15,7 +15,6 @@ This is my first Machine Learning applicationusing ML.NET Model Builder in Visua
 
 ## Experiment Results
 
-
 | Summary|
 | --- |
 |ML Task: multiclass-classification|
