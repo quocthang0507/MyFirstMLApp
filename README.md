@@ -1,6 +1,8 @@
 # MyFirstMLApp
 This is my first Machine Learning applicationusing ML.NET Model Builder in Visual Studio
 
+## Result
+
 | # | Trainer | MicroAccuracy | MacroAccuracy | Duration | #Iteration |
 | --- | --- | --- | --- | --- | --- |
 | 1 | AveragedPerceptronOva | 0.7086 | 0.6750 | 7.8 | 1 |
@@ -13,7 +15,7 @@ This is my first Machine Learning applicationusing ML.NET Model Builder in Visua
 | 8 | SgdCalibratedOva | 0.7405 | 0.6846 | 6.9 | 8 |
 | 9 | FastForestOva | 0.7102 | 0.6839 | 22.5 | 9 |
 
-## Experiment Results
+### Experiment Results
 
 | Summary|
 | --- |
