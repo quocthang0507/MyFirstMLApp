@@ -1,4 +1,4 @@
-# MyFirstMLApp
+# MyFirstMLWithML.NET
 This is my first Machine Learning applicationusing ML.NET Model Builder in Visual Studio
 
 ## Result
