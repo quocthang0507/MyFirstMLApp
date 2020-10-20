@@ -12,7 +12,7 @@ namespace My_First_ML_AppML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"D:\OneDrive\Thang\HOCTAP\PUBLIC PROJECTS\My First ML App\wikipedia-detox-250-line-data.tsv";
+        private static string TRAIN_DATA_FILEPATH = @"D:\GitHub\MyFirstMLApp\wikipedia-detox-250-line-data.tsv";
         private static string MODEL_FILE = ConsumeModel.MLNetModelPath;
 
         // Create MLContext to be shared across the model creation workflow objects 
@@ -51,7 +51,7 @@ namespace My_First_ML_AppML.ConsoleApp
                                       .Append(mlContext.Transforms.NormalizeMinMax("Features", "Features"))
                                       .AppendCacheCheckpoint(mlContext);
             // Set the training algorithm 
-            var trainer = mlContext.MulticlassClassification.Trainers.OneVersusAll(mlContext.BinaryClassification.Trainers.AveragedPerceptron(labelColumnName: "Sentiment", numberOfIterations: 10, featureColumnName: "Features"), labelColumnName: "Sentiment")
+            var trainer = mlContext.MulticlassClassification.Trainers.OneVersusAll(mlContext.BinaryClassification.Trainers.SgdCalibrated(labelColumnName: "Sentiment", featureColumnName: "Features"), labelColumnName: "Sentiment")
                                       .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel", "PredictedLabel"));
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);

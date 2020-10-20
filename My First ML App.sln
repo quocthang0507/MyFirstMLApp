@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My First ML App", "My First ML App\My First ML App.csproj", "{735906A6-9AB6-47EC-9601-F0183E8C7347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My First ML App", "My First ML App\My First ML App.csproj", "{735906A6-9AB6-47EC-9601-F0183E8C7347}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My First ML AppML.Model", "My First ML AppML.Model\My First ML AppML.Model.csproj", "{0F346EC3-CFAB-4044-B0F5-B06DB01BBCD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My First ML AppML.Model", "My First ML AppML.Model\My First ML AppML.Model.csproj", "{FC5B9F28-7C67-4377-A435-03177B8E48B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My First ML AppML.ConsoleApp", "My First ML AppML.ConsoleApp\My First ML AppML.ConsoleApp.csproj", "{1FE6F858-0425-4AB1-9998-C0647F84459B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My First ML AppML.ConsoleApp", "My First ML AppML.ConsoleApp\My First ML AppML.ConsoleApp.csproj", "{14712F87-2FA4-45D2-B853-E538B4734662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{735906A6-9AB6-47EC-9601-F0183E8C7347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735906A6-9AB6-47EC-9601-F0183E8C7347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735906A6-9AB6-47EC-9601-F0183E8C7347}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F346EC3-CFAB-4044-B0F5-B06DB01BBCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F346EC3-CFAB-4044-B0F5-B06DB01BBCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F346EC3-CFAB-4044-B0F5-B06DB01BBCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F346EC3-CFAB-4044-B0F5-B06DB01BBCD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1FE6F858-0425-4AB1-9998-C0647F84459B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FE6F858-0425-4AB1-9998-C0647F84459B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FE6F858-0425-4AB1-9998-C0647F84459B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FE6F858-0425-4AB1-9998-C0647F84459B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5B9F28-7C67-4377-A435-03177B8E48B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5B9F28-7C67-4377-A435-03177B8E48B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5B9F28-7C67-4377-A435-03177B8E48B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5B9F28-7C67-4377-A435-03177B8E48B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14712F87-2FA4-45D2-B853-E538B4734662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14712F87-2FA4-45D2-B853-E538B4734662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14712F87-2FA4-45D2-B853-E538B4734662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14712F87-2FA4-45D2-B853-E538B4734662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
